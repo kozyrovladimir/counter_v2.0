@@ -1,38 +1,106 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #2a2c36;
+    color: #62d5f8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*styles for all buttons*/
+
+.button {
+    display: block;
+    color: #2a2c36;
+    background-color: #62d5f8;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button__disabled {
+    display: block;
+    color: #2a2c36;
+    background-color: #2b5d6c;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.wrapper {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.settings {
+    border: 2px solid #62d5f8;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+}
+
+.settings__info {
+    border: 2px solid #62d5f8;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.settings__item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.settings__input {
+    border: 2px solid #62d5f8;
+    border-radius: 5px;
+}
+
+.settings__input_error {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.settings__button {
+    border: 2px solid #62d5f8;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.counter {
+    border: 2px solid #62d5f8;
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+}
+
+.counter__info {
+    border: 2px solid #62d5f8;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.counter__buttons {
+    border: 2px solid #62d5f8;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
