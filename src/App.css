@@ -46,7 +46,7 @@ body {
 .settings {
     border: 2px solid #62d5f8;
     border-radius: 10px;
-    width: 400px;
+    width: 350px;
     padding: 10px;
     flex-wrap: wrap;
     margin-bottom: 10px;
@@ -87,7 +87,7 @@ body {
 .counter {
     border: 2px solid #62d5f8;
     border-radius: 10px;
-    width: 400px;
+    width: 350px;
     padding: 10px;
 }
 
