@@ -38,6 +38,7 @@ body {
 .wrapper {
     width: 900px;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
@@ -47,6 +48,8 @@ body {
     border-radius: 10px;
     width: 400px;
     padding: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
 }
 
 .settings__info {
